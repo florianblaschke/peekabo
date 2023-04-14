@@ -1,0 +1,59 @@
+html {
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+  background-color: rgb(67, 80, 94);
+}
+
+main {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 250px);
+  grid-template-rows: repeat(5, 250px);
+  gap: 1rem;
+  align-content: center;
+}
+
+h1 {
+  background-color: red;
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(61, 61, 145);
+  border-radius: 5px;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.635);
+}
+
+img {
+  width: 250px;
+  border-radius: 5px;
+  visibility: hidden;
+}
+
+p {
+  color: white;
+  font-size: large;
+  /* visibility: hidden; */
+}
+
+.visible {
+  visibility: visible;
+}
+
+.black {
+  background-color: black;
+}
