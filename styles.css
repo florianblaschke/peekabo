@@ -24,7 +24,7 @@ main {
 }
 
 h1 {
-  background-color: red;
+  margin: 20vh 0vh 0vh 50vh;
   grid-column-start: 1;
   grid-column-end: 5;
 }
@@ -47,7 +47,8 @@ img {
 p {
   color: white;
   font-size: large;
-  /* visibility: hidden; */
+  padding: 5px;
+  visibility: hidden;
 }
 
 .visible {
