@@ -1,4 +1,4 @@
-html {
+/* html {
   box-sizing: border-box;
   font-family: monospace;
 }
@@ -57,4 +57,11 @@ p {
 
 .black {
   background-color: black;
+} */
+
+.grid {
+  display: flex;
+  flex-flow: row wrap;
+  width: 200px;
+  height: 200px;
 }
