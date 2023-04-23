@@ -1,4 +1,4 @@
-/* html {
+html {
   box-sizing: border-box;
   font-family: monospace;
 }
@@ -17,14 +17,15 @@ body {
 main {
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(4, 250px);
-  grid-template-rows: repeat(5, 250px);
+  grid-template-columns: repeat(4, 150px);
+  grid-template-rows: repeat(5, 150px);
   gap: 1rem;
   align-content: center;
 }
 
 h1 {
-  margin: 20vh 0vh 0vh 50vh;
+  align-self: center;
+  margin-left: calc(50% - 45px);
   grid-column-start: 1;
   grid-column-end: 5;
 }
@@ -48,20 +49,20 @@ p {
   color: white;
   font-size: large;
   padding: 5px;
-  visibility: hidden;
+  visibility: visible;
 }
 
 .visible {
-  visibility: visible;
+  visibility: hidden;
 }
 
 .black {
   background-color: black;
-} */
+}
 
 .grid {
   display: flex;
   flex-flow: row wrap;
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
 }
