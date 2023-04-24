@@ -14,6 +14,13 @@ body {
   background-color: rgb(67, 80, 94);
 }
 
+.grid {
+  display: flex;
+  flex-flow: row wrap;
+  width: 150px;
+  height: 150px;
+}
+
 main {
   display: grid;
   justify-content: center;
@@ -39,12 +46,6 @@ div {
   box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.635);
 }
 
-img {
-  width: 250px;
-  border-radius: 5px;
-  visibility: hidden;
-}
-
 p {
   color: white;
   font-size: large;
@@ -54,15 +55,4 @@ p {
 
 .visible {
   visibility: hidden;
-}
-
-.black {
-  background-color: black;
-}
-
-.grid {
-  display: flex;
-  flex-flow: row wrap;
-  width: 150px;
-  height: 150px;
 }

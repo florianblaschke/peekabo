@@ -33,11 +33,6 @@ const text15 = document.getElementById("div15");
 const text16 = document.getElementById("div16");
 
 const body = document.getElementById("body");
-const button = document.querySelector('[data-js="kiss"]');
-
-// button.addEventListener("click", () => {
-//   body.classList.toggle("black");
-// });
 
 div1.addEventListener("click", () => {
   text.classList.toggle("visible");
